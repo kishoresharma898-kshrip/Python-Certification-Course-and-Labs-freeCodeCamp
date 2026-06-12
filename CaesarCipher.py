@@ -3,6 +3,8 @@ This is a workshop, where you need to create a program called caesar cipher
 which is an encryption method that shifts letters in the alphabet to encode 
 messages.'''
 
+# Code:
+
 def caesar(text, shift, encrypt=True):
 
     if not isinstance(shift, int):
