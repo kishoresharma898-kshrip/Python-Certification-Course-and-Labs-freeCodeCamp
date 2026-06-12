@@ -47,7 +47,7 @@ def create_character(name, strength, intelligence, charisma):
     elif name.count(" ") > 0:
         return "The character name should not contain spaces"
     
-    # strength validations:
+    # stats validations:
     elif (not isinstance(strength, int)) or (not isinstance(intelligence, int)) or (not isinstance(charisma, int)):
         return "All stats should be integers"
     elif (strength < 1) or (intelligence < 1) or (charisma < 1):
